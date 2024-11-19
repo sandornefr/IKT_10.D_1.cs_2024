@@ -1,13 +1,21 @@
 <!--komment-->
 <!DOCTYPE html> <!--HTML5 nyelven íródik a dokumentum-->
-<html lang="en"> <!--ebbe készül az eglsz weboldal, itt állítom a nyelvet magyarra-->
+<html lang="en"> <!--ebbe készül az egész weboldal, itt állítom a nyelvet magyarra-->
 <head> <!--böngészőnek ad utasításokat-->
     <meta charset="UTF-8"> <!--karakterkódolás beállítása-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css"> <!--külső stíluslap (external)-->
+    <style>
+        h1 {
+            color: red;
+        }
+    </style> <!--belső stílusbeállítás (internal)-->
+    <title>Document</title> <!--weboldal címe-->
 </head>
-<body>
-    
+<body> <!--felhasználónak ad információkat-->
+    <h1 style="color: blueviolet;"></h1> <!--címsor, h1-h6-ig van, inline stílus beállítás a legerősebb-->
+    <p></p> <!--bekezdések készítése-->
+    <img src="link vagy mappa/kep.jpg" alt="ha nem jeleníthető meg a kép" title="ha a kép fölé visszük az egeret"> <!--kép beillesztése-->
+    <a href="link vagy saját menüpont vagy ugrópont" target="_blank"></a> <!--3 féle állapot: 1. link, amikor weboldal cím kerül a href-be és ha új oldalon kell megnyitni akkor használjuk a target-et, 2. saját navigáció, amikor a saját oldalamon index.html-en kívül más aloldalak is vannak, a href-be pl.: cica.html kerül, 3. ugrópont: adott fejezethez ugrás, href-be az egyedi azonosító kerül, pl.: href="#cica"-->
 </body>
 </html>
