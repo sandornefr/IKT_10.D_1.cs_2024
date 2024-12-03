@@ -32,6 +32,7 @@ tr:hover { /*táblázati sor felé viszem az egeret*/
     padding: 5px 10px 15px 20px; /*óramutató járásának megfelelő irányba kell haladni és 12 óránál kezdesz: fent-jobb-lent-bal (top-right-bottom-left)*/
     padding: 5px 10px 15px; /*az 1. fent, 2. jobbra-balra, 3. lent*/ 
     margin: 5px; /*külső margó vagy csak simán margónak írják, ez az érték mindehol ugyanannyi*/
+    border-radius: 25px; /*lekerekített sarok*/
 }
 
 ul {
